@@ -66,7 +66,7 @@ export default {
         });
         this.$store
           .dispatch("MODIFY_ADMIN", {
-            email: this.newEmail,
+            email: this.newEmail == "" ? this.email : this.newEmail,
             nom: this.nomValue,
             prenom: this.prenomValue,
           })

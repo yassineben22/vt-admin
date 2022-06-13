@@ -33,7 +33,7 @@
             <button
               class="btn bgpurple text-white"
               style="padding: 4px 9px; margin-top: 40px"
-              @click="symptomes.push({ name: '' })"
+              @click="virus.symptomes.push({ name: '' })"
             >
               <i class="fas fa-plus"></i>
             </button>
